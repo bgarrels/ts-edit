@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="/"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=""/>
+      <ActiveEditorIndexAtStart Value="1"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="6">
+      <Item1>
+        <PackageName Value="TurboPowerIPro"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="Printer4Lazarus"/>
+        <MinVersion Minor="5" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+    </RequiredPackages>
+    <Units Count="24">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <UsageCount Value="54"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit1.lrs"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="2" Y="20"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="/usr/share/fpcsrc/2.2.0/rtl/objpas/objpas.pp"/>
+        <UnitName Value="objpas"/>
+        <CursorPos X="16" Y="68"/>
+        <TopLine Value="39"/>
+        <UsageCount Value="7"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/lib/lazarus/lcl/printers.pas"/>
+        <UnitName Value="Printers"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/fpcsrc/2.2.0/rtl/objpas/classes/classesh.inc"/>
+        <CursorPos X="3" Y="1426"/>
+        <TopLine Value="1426"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/lib/lazarus/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <CursorPos X="46" Y="467"/>
+        <TopLine Value="438"/>
+        <UsageCount Value="21"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="unit1.lrs"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/share/fpcsrc/2.2.0/rtl/inc/systemh.inc"/>
+        <CursorPos X="25" Y="637"/>
+        <TopLine Value="608"/>
+        <UsageCount Value="7"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/lib/lazarus/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <CursorPos X="14" Y="568"/>
+        <TopLine Value="539"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/usr/lib/lazarus/lcl/lazhelphtml.pas"/>
+        <UnitName Value="LazHelpHTML"/>
+        <CursorPos X="19" Y="16"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/share/fpcsrc/2.2.0/rtl/objpas/sysutils/sysutilh.inc"/>
+        <CursorPos X="14" Y="169"/>
+        <TopLine Value="141"/>
+        <UsageCount Value="12"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="Form2"/>
+        <ResourceFilename Value="unit2.lrs"/>
+        <UnitName Value="Unit2"/>
+        <CursorPos X="24" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="24"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../.Delphi/components/efects/waiter.pas"/>
+        <UnitName Value="Waiter"/>
+        <CursorPos X="3" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../.Delphi/components/efects/shape.pas"/>
+        <UnitName Value="Shape"/>
+        <CursorPos X="3" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../.Delphi/components/efects/memutils.pas"/>
+        <UnitName Value="MemUtils"/>
+        <CursorPos X="6" Y="16"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../.Delphi/components/efects/graybitmap.pas"/>
+        <UnitName Value="GrayBitmap"/>
+        <CursorPos X="2" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../.Delphi/components/efects/graphutils.pas"/>
+        <UnitName Value="GraphUtils"/>
+        <CursorPos X="3" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../.Delphi/components/efects/funthings.pas"/>
+        <UnitName Value="FunThings"/>
+        <CursorPos X="3" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../.Delphi/components/efects/exacttimer.pas"/>
+        <UnitName Value="ExactTimer"/>
+        <CursorPos X="3" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="19"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../.Delphi/components/efects/effects.pas"/>
+        <UnitName Value="Effects"/>
+        <CursorPos X="34" Y="44"/>
+        <TopLine Value="131"/>
+        <UsageCount Value="19"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="unit2.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="/usr/lib/lazarus/components/rtticontrols/rttictrls.pas"/>
+        <UnitName Value="RTTICtrls"/>
+        <CursorPos X="28" Y="4"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="memutils.pas"/>
+        <UnitName Value="MemUtils"/>
+        <CursorPos X="53" Y="177"/>
+        <TopLine Value="148"/>
+        <UsageCount Value="9"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="/usr/lib/lazarus/lcl/menus.pp"/>
+        <UnitName Value="Menus"/>
+        <CursorPos X="3" Y="99"/>
+        <TopLine Value="99"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit23>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
