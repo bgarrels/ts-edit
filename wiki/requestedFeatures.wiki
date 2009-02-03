@@ -1,0 +1,14 @@
+#summary requested Features
+#labels Phase-Support
+
+<wiki:toc max_depth="1" />
+= Introduction =
+On this page has the purpose to show requested features so I(and maybe some one else) can Implement them.
+== Marks ==
+Please mark all new requested Features with a orange star(<font color="orange">`*`</font>)<br>
+All features that are in work are marked with a Blue star(<font color="blue">`*`</font>)<br>
+All implemented features are marked with a green star(<font color="green">`*`</font>)<br>
+== Please... ==
+Check before you request a feature,if the feature is already in work or if it's already implemented.
+= Wanted Features =
+no requested features.(if you write one,please erase it)
