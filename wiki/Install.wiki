@@ -10,5 +10,5 @@ It is very important to unpack this file!
 Else Ubuntu's Archive Manager(others not tested) will think the File is a type text.
 
 = Requirements =
-  *GTK1(I know,it is old)
-  *rights to read/write files on the Disk.
+  * GTK1(I know,it is old)
+  * rights to read/write files on the Disk.
